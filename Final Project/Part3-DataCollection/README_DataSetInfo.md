@@ -1,4 +1,4 @@
-# MSNET
+# 1. MSNET
 This repository contains the code and models for the following WACV'21 paper:
 
 **[MSNet: A Multilevel Instance Segmentation Network for Natural Disaster Damage Assessment in Aerial Videos](https://arxiv.org/abs/2006.16479)** 
@@ -17,7 +17,7 @@ Our MSNet is based on [Tensorpack](https://github.com/tensorpack/tensorpack/tree
 
 
 
-# ABCD dataset
+# 2. ABCD dataset
 
 ABCD (AIST Building Change Detection) dataset is a new labeled dataset, specially geared toward constructing and evaluating damage detection systems to identify whether buildings have been washed-away by tsunami.  
 
@@ -55,7 +55,7 @@ $ unzip ABCDdataset.zip
 ```
 
 
-# xView 2 Challenge 
+# 3. xView 2 Challenge 
 
 xview2-baseline
 
@@ -91,7 +91,7 @@ See the code we use to translate the json outputs to this submission image [infe
 ## Contact 
 
 See the [xView2 FAQ](https://xview2.org/challenge) page first, if you would like to talk to us further reach out to the xView2 chat on [discord](https://xview2.org/chat).
-# FloodNet Dataset
+# 4. FloodNet Dataset
 
 ## Overview
 
