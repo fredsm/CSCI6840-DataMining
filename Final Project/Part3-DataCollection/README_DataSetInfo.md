@@ -51,3 +51,43 @@ Or type the following in the terminal:
 ```
 $ wget https://data.airc.aist.go.jp/ABCDdataset/ABCDdataset.zip
 $ unzip ABCDdataset.zip
+
+
+# xView 2 Challenge 
+
+xview2-baseline
+
+Copyright 2019 Carnegie Mellon University.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Released under a BSD-3-style license, please see LICENSE.md or contact permission@sei.cmu.edu for full terms.
+
+[DISTRIBUTION STATEMENT A] This material has been approved for public release and unlimited distribution.  Please see Copyright notice for non-US Government use and distribution.
+
+This Software includes and/or makes use of the following Third-Party Software subject to its own license:
+1. SpaceNet (https://github.com/motokimura/spacenet_building_detection/blob/master/LICENSE) Copyright 2017 Motoki Kimura.
+
+DM19-0988
+
+## xView 
+
+xView2 is a challenge set forth by [DIU](https://diu.mil) for assessing damaged buildings after a natural disaster. The challenge is open to all to participate and more information can be found at the [xview2](https://xview2.org) challenge site.
+
+## xBD
+
+xBD is the name of the dataset that was generated for this challenge. The dataset contains over 45,000KM<sup>2</sup> of polygon labeled pre and post disaster imagery. The dataset provides the post-disaster imagery with transposed polygons from pre over the buildings, with damage classification labels. See the [xBD paper](http://openaccess.thecvf.com/content_CVPRW_2019/papers/cv4gc/Gupta_Creating_xBD_A_Dataset_for_Assessing_Building_Damage_from_Satellite_CVPRW_2019_paper.pdf) for more information.  
+
+## Data Downloads
+
+The data during the challenge is available from [xView2](https://xview2.org) challenge website, please register or login to download the data! 
+
+The current total space needed is: about **10GB** compressed and about **11GB** uncompressed. 
+
+See the code we use to translate the json outputs to this submission image [inference_image_output.py](./utils/inference_image_output.py), also see the submission rules on the [xview2 website](https://xview2.org/challenge).
+
+## Contact 
+
+See the [xView2 FAQ](https://xview2.org/challenge) page first, if you would like to talk to us further reach out to the xView2 chat on [discord](https://xview2.org/chat).
+
+
