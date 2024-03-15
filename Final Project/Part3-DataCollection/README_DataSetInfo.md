@@ -52,6 +52,8 @@ Or type the following in the terminal:
 $ wget https://data.airc.aist.go.jp/ABCDdataset/ABCDdataset.zip
 $ unzip ABCDdataset.zip
 
+```
+
 
 # xView 2 Challenge 
 
@@ -89,8 +91,6 @@ See the code we use to translate the json outputs to this submission image [infe
 ## Contact 
 
 See the [xView2 FAQ](https://xview2.org/challenge) page first, if you would like to talk to us further reach out to the xView2 chat on [discord](https://xview2.org/chat).
-
-
 # FloodNet Dataset
 
 ## Overview
