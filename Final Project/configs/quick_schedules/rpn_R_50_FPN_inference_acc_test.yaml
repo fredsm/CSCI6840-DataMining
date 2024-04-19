@@ -1,0 +1,7 @@
+_BASE_: "../COCO-Detection/rpn_R_50_FPN_1x.yaml"
+MODEL:
+  WEIGHTS: "./COCO-InstanceSegmentation/ISBDATrained/rpn_R_50_FPN_instant/run1/model_final.pth"
+DATASETS:
+  TEST: ("ISBDA_dataset_val",)
+TEST:
+  EXPECTED_RESULTS: []

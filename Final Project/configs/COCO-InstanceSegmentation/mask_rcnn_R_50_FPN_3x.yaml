@@ -1,0 +1,12 @@
+_BASE_: "../Base-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "./COCO-InstanceSegmentation/R-50.pkl"
+  MASK_ON: True
+  RESNETS:
+    DEPTH: 50
+DATASETS:
+  TRAIN: ("ISBDA_dataset_train",)
+  TEST: ("ISBDA_dataset_val",)
+SOLVER:
+  STEPS: (700, 900)
+  MAX_ITER: 1000

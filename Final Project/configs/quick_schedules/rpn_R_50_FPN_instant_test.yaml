@@ -1,0 +1,13 @@
+_BASE_: "../COCO-Detection/rpn_R_50_FPN_1x.yaml"
+MODEL:
+  WEIGHTS: "./COCO-InstanceSegmentation/ISBDATrained/rpn_R_50_FPN_instant/run1/model_final.pth"
+DATASETS:
+  TRAIN: ("ISBDA_dataset_train",)
+  TEST: ("ISBDA_dataset_val",)
+SOLVER:
+  STEPS: (800,)
+  MAX_ITER: 1000
+  BASE_LR: 0.005
+  IMS_PER_BATCH: 4
+DATALOADER:
+  NUM_WORKERS: 2
